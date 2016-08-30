@@ -17,7 +17,7 @@ a:hover {
 }
 .left, .right{
 
-  background: none !important; 
+  background: none !important;
 }
 h6 {
   line-height: 25.71428572px;
@@ -63,8 +63,9 @@ h1 a:hover {
 
 .banner{
   background-image: url("../images/banner.jpg");
-  height: 300px;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 50vh;
 }
 
 
